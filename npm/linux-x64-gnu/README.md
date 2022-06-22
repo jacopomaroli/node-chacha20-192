@@ -1,3 +1,3 @@
-# `node-chacha20-192-linux-x64-gnu`
+# `@xchacha20-192bit/core-linux-x64-gnu`
 
-This is the **x86_64-unknown-linux-gnu** binary for `node-chacha20-192`
+This is the **x86_64-unknown-linux-gnu** binary for `@xchacha20-192bit/core`

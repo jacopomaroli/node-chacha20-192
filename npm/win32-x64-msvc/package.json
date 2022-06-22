@@ -1,18 +1,20 @@
 {
-  "name": "node-chacha20-192-win32-x64-msvc",
-  "version": "0.0.2",
+  "name": "@xchacha20-192bit/core-win32-x64-msvc",
+  "version": "0.0.1",
   "os": [
     "win32"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "node-chacha20-192.win32-x64-msvc.node",
+  "main": "xchacha20-192bit.win32-x64-msvc.node",
   "files": [
-    "node-chacha20-192.win32-x64-msvc.node"
+    "xchacha20-192bit.win32-x64-msvc.node"
   ],
+  "description": "This library will allow you use a XchaCha20Poly1305 with 192bit (24 bytes) encryption",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/jacopomaroli/node-chacha20-192"
 }

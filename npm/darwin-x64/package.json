@@ -1,18 +1,20 @@
 {
-  "name": "node-chacha20-192-darwin-x64",
-  "version": "0.0.2",
+  "name": "@xchacha20-192bit/core-darwin-x64",
+  "version": "0.0.1",
   "os": [
     "darwin"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "node-chacha20-192.darwin-x64.node",
+  "main": "xchacha20-192bit.darwin-x64.node",
   "files": [
-    "node-chacha20-192.darwin-x64.node"
+    "xchacha20-192bit.darwin-x64.node"
   ],
+  "description": "This library will allow you use a XchaCha20Poly1305 with 192bit (24 bytes) encryption",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/jacopomaroli/node-chacha20-192"
 }

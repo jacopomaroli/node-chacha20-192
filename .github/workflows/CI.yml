@@ -1,7 +1,7 @@
 name: CI
 env:
   DEBUG: napi:*
-  APP_NAME: node-chacha20-192
+  APP_NAME: xchacha20-192bit
   MACOSX_DEPLOYMENT_TARGET: '10.13'
 'on':
   push:

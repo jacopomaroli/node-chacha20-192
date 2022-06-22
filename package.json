@@ -1,15 +1,12 @@
 {
-  "name": "node-chacha20-192",
+  "name": "@xchacha20-192bit/core",
   "description": "This library will allow you use a XchaCha20Poly1305 with 192bit (24 bytes) encryption",
-  "version": "0.0.2",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jacopomaroli/node-chacha20-192"
-  },
+  "version": "0.0.1",
+  "repository": "https://github.com/jacopomaroli/node-chacha20-192",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "node-chacha20-192",
+    "name": "xchacha20-192bit",
     "triples": {}
   },
   "license": "MIT",

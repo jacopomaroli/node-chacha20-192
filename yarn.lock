@@ -75,6 +75,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@xchacha20-192bit/core@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@xchacha20-192bit/core@workspace:."
+  dependencies:
+    "@napi-rs/cli": ^2.10.0
+    ava: ^4.3.0
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -1391,15 +1400,6 @@ __metadata:
   checksum: b8ffeb1e262eff7968fc90a2b6767b04cfd9842582a9d0ece0af7049537266e7b2506dfb1d107a32f06dd849ab2aea834d5830f7f4d0e5cb7d36e1ae55d021d9
   languageName: node
   linkType: hard
-
-"node-chacha20-192@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "node-chacha20-192@workspace:."
-  dependencies:
-    "@napi-rs/cli": ^2.10.0
-    ava: ^4.3.0
-  languageName: unknown
-  linkType: soft
 
 "node-gyp@npm:latest":
   version: 9.0.0

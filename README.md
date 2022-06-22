@@ -4,11 +4,11 @@ This library will allow you use a XchaCha20Poly1305 with 192bit (24 bytes) encry
 # Quickstart
 install with
 ```
-npm i --save node-chacha20-192
+npm i --save @xchacha20-192bit/core
 ```
 and use this
 ```
-const { encrypt, decrypt, getXchaCha20Poly1305Cipher } = require('node-chacha20-192')
+const { encrypt, decrypt, getXchaCha20Poly1305Cipher } = require('@xchacha20-192bit/core')
 
 // generate with: openssl rand 32 | base64 -w 0
 const key = '14wJ5sfw+TXBHmmWk4RU9AUixM46TWxr1wqRvcenCdc='
