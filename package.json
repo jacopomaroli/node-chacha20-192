@@ -1,0 +1,29 @@
+{
+  "name": "node-chacha20-192",
+  "description": "This library will allow you use a XchaCha20Poly1305 with 192bit (24 bytes) encryption",
+  "version": "0.0.1",
+  "repository": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "node-chacha20-192",
+    "triples": {}
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.10.0",
+    "ava": "^4.3.0"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "ava",
+    "version": "napi version"
+  },
+  "packageManager": "yarn@3.2.1"
+}
