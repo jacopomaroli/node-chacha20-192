@@ -1,6 +1,6 @@
 {
   "name": "node-chacha20-192-darwin-x64",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "os": [
     "darwin"
   ],
